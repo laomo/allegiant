@@ -1,3 +1,14 @@
+/* same with smallcode,fix <code>something</code> not highlingt */
+:not(pre) > code {
+    font-family: monospace;
+    padding: .25em .5em;
+    font-size: inherit;
+    border-radius: 3px;
+    background-color: #e5e5e5;
+    white-space: nowrap;
+    color: #c7254e
+}
+
 .lower label:hover,
 .overlay label {
     cursor: pointer
